@@ -1,0 +1,14 @@
+About background:
+The background in the first frame is actually more efficient when it is in white. For a better view we need a white background and a dark color item.
+
+Algorithm: 
+- FIRST_FRAME into Grayscale
+- For FRAME in VIDEO:
+    Grayscale(Actual_frame)
+    Difference with the FIRST_FRAME
+    Detection of contours in the difference
+    Draw of the rectangle
+    
+
+Source: 
+https://www.youtube.com/watch?v=5jKj6dRKaZc&t=1629s
